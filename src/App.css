@@ -1,0 +1,46 @@
+.crud-app {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table tr:nth-child(even) {
+    background: #CCC;
+}
+
+.crud-app th {
+    background: #e37f7f;
+    padding: 20px 0;
+}
+
+
+
+
+
+/* 
+//  e.preventDefault();
+// setStudents((prev) => [...prev, form]); // Add the student data
+// setForm({ fullname: "", class: '', roll: '', subject: '', dob: '' }); // Reset form
+// ChatGPT said:
+// ChatGPT
+// Sure! Let’s break down that code step by step:
+
+// e.preventDefault();:
+
+// When you submit a form in a web application, the default behavior is to refresh the page. This line stops that from happening, so the page doesn’t reload when you submit the form.
+// setStudents((prev) => [...prev, form]);:
+
+// This line adds the new student data to the existing list of students.
+// prev is the current list of students.
+// ...prev spreads out the existing students into a new array.
+// form is the new student's data that you want to add.
+// So, this line creates a new array that contains all the previous students plus the new one, and updates the state with this new array.
+// setForm({ fullname: "", class: '', roll: '', subject: '', dob: '' });:
+
+// After adding the new student, this line resets the input fields in the form to be empty.
+// It sets each property (like fullname, class, etc.) back to an empty string, so the form is ready for new input.
+// In Summary:
+// The first line stops the page from reloading when you submit the form.
+// The second line adds the new student's data to the existing list.
+// The last line clears the form fields so you can enter new data easily.
+// This way, you can keep adding students without any interruptions! Let me know if you have more questions! */
